@@ -15,6 +15,7 @@ class App < Sinatra::Base
     breed = params[:breed]
     age = params[:breed]
     @new_puppy = Puppy.new(name, breed, age)
+    binding.pry
   end
 
 
